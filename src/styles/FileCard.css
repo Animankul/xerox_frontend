@@ -1,0 +1,57 @@
+.file-card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  transition: 0.3s ease;
+}
+
+.file-card:hover {
+  transform: translateY(-3px);
+}
+
+.file-preview {
+  height: 160px;
+  background-color: #f9fafb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.file-preview img, .file-preview video {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.file-details {
+  padding: 15px;
+}
+
+.file-name {
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin: 5px 0;
+  color: #111827;
+}
+
+.file-time {
+  font-size: 0.8rem;
+  color: #6b7280;
+  margin-bottom: 10px;
+}
+
+.file-actions button {
+  background: #3b82f6;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.file-actions .delete {
+  background: #ef4444;
+}
